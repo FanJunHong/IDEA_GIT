@@ -7,5 +7,6 @@ public class firstMain {
             System.out.println("helloExp!");
             System.out.println("helloExp");
             System.out.println("修改了文件，但是没有commit，文件名会变成蓝色");
+            System.out.println("合并了分支");
     }
 }
