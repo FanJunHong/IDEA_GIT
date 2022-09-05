@@ -1,4 +1,4 @@
-package testPackage;
+package testpackage;
 
 public class testInteger {
     public static void main(String[] args) {
