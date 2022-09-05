@@ -1,4 +1,4 @@
-package comme;
+package testPackage;
 
 public class testInteger {
     public static void main(String[] args) {

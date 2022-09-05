@@ -1,7 +1,5 @@
-package comme;
+package testPackage;
 
-import javax.swing.*;
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.util.Scanner;
 
 public class testEnum {
