@@ -26,7 +26,7 @@ public class testCalendar {
         System.out.println("修改月份后的时间："+calendar.getTime());
         System.out.println("修改月份后的时间(yyyy-MM-dd)："+sdf.format(calendar.getTime()));
         System.out.println( calendar.getWeeksInWeekYear());
-
+        System.out.println(calendar.getWeekYear());
 
     }
 }
