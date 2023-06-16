@@ -1,6 +1,10 @@
 package testpackage;
 
+import netscape.javascript.JSObject;
+
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Date;
 public class testDate {
 
@@ -32,6 +36,27 @@ public class testDate {
         System.out.println(a);
         double b = Double.parseDouble(String.valueOf(Integer.parseInt(String.valueOf(864L))));
         System.out.println(b);
+
+        try {
+            String str4 = "2022-10";
+            SimpleDateFormat sdf4 = new SimpleDateFormat("yyyy-MM");
+            Date date4 = sdf4.parse(str4);
+            Calendar now = Calendar.getInstance();
+            now.setTime(date4);
+            System.out.println("now="+now.getTime());
+            now.add(Calendar.MONTH, -12);
+            System.out.println("now="+now.getTime()); //当前时间减去12个月后的时间
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        if(!Arrays.asList("4","5","6").contains("1"))
+        {
+            System.out.println("该值不在Arrays内");
+        }
+        else {
+            System.out.println("该值在Arrays内");
+        }
 
     }
 }
