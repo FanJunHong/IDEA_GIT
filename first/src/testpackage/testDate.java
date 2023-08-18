@@ -58,5 +58,18 @@ public class testDate {
             System.out.println("该值在Arrays内");
         }
 
+        try {
+            SimpleDateFormat sdf99 = new SimpleDateFormat("yyyyMMddHHmmssSSS");
+            SimpleDateFormat sdf100 = new SimpleDateFormat("HHmmssSSS");
+            String date98 = sdf99.format(new Date());
+            String date99 = sdf100.format(new Date());
+            System.out.println("date98:"+date98);
+            System.out.println("date99:"+date99);
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+
     }
 }
